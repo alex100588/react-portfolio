@@ -1,6 +1,5 @@
 import './About.css';
 import me from "../../assets/me.jpg";
-import theme_pattern from "../../assets/theme_pattern.svg";
 
 const About = () => {
     return ( 

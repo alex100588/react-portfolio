@@ -5,6 +5,10 @@
     margin:1.2rem 3rem ;
 }
 
+.navbar ul li{
+    cursor: pointer;
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -16,7 +20,7 @@
 .nav-conect{
     padding: 0.8rem 2rem;
     border-radius: 3rem;
-    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102%);
+    background: linear-gradient(267deg, #3a25da 0.36%, #830ea3 102%);
     font-size: 1rem;
     cursor: pointer;
     transition: 0.5s;

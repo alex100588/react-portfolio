@@ -24,6 +24,8 @@
 }
 
 .my-work-container img{
+    border:1px solid white;
+    padding: .4rem;
     width: 17rem;
     height: 8rem;
     transition: 0.3s;
@@ -32,6 +34,5 @@
 }
 .my-work-container img:hover{
     transform: scale(1.02);
-    border: 1px solid #ff00ff;
     transition: 0.3s;
 }

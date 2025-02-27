@@ -17,6 +17,11 @@
     font-size: 1.1rem;
 }
 
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-conect{
     padding: 0.8rem 2rem;
     border-radius: 3rem;

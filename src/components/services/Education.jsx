@@ -2,7 +2,7 @@ import "./Education.css";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div id="education" className="services">
       <div className="services-title">
         <h1>My Education</h1>
         <img src="" alt="" />

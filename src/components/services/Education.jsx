@@ -1,32 +1,26 @@
 import "./Education.css";
+import game2 from "../../assets/game2.png";
 
 const Services = () => {
   return (
-    <div id="education" className="services">
-      <div className="services-title">
+    <div id="education" className="my-education">
+      <h1>Education</h1>
+      <div className="education-title">
         <h1>My Education</h1>
-        <img src="" alt="" />
+        <img src={game2} alt="licence" />
       </div>
-      <div className="service-container">
-        <h3>Certifications</h3>
-        <img src="" alt="" />
-      </div>
-      <div className="skills">
-        <div className="about-skill">
-          <p>HTML & CSS</p>
-          <hr style={{ width: "80%" }} />
+      <div className="certifications">
+        <div>
+          <h3>Certification 1</h3>
+          <img src={game2} alt="" />
         </div>
-        <div className="about-skill">
-          <p>Javascript</p>
-          <hr style={{ width: "70%" }} />
+        <div>
+          <h3>Certification 2</h3>
+          <img src={game2} alt="" />
         </div>
-        <div className="about-skill">
-          <p>React Js</p>
-          <hr style={{ width: "60%" }} />
-        </div>
-        <div className="about-skill">
-          <p>Typescript</p>
-          <hr style={{ width: "50%" }} />
+        <div>
+          <h3>Certification 3</h3>
+          <img src={game2} alt="" />
         </div>
       </div>
     </div>

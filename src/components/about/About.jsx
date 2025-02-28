@@ -13,8 +13,10 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, modi.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, suscipit.</p>
+                        <p>Hy, I am Alex, I live in Romania, in Bacau, I studied Informatics at Vasile Alecsandri University, I am passionate about aquariums, tropical fish in general, my other passions are
+                        computers, technology, games and programming. In my spare time I like to create apps.
+                        </p>
+                        <p> Some of my skills are:</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill">
@@ -31,7 +33,23 @@ const About = () => {
                         </div>
                         <div className="about-skill">
                             <p>Typescript</p>
+                            <hr style={{width:"40%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>Bootstrap</p>
                             <hr style={{width:"50%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>MySql</p>
+                            <hr style={{width:"40%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>PHP</p>
+                            <hr style={{width:"40%"}} />
+                        </div>
+                        <div className="about-skill">
+                            <p>Networking</p>
+                            <hr style={{width:"40%"}} />
                         </div>
                     </div>
                 </div>

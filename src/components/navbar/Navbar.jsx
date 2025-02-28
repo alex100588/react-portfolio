@@ -5,7 +5,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={logo} alt="" />
+      <AnchorLink className="anchor-link" href="#home">
+        <img src={logo} alt="" />
+      </AnchorLink>{" "}
       <ul className="nav-menu">
         <li>
           <AnchorLink className="anchor-link" href="#home">

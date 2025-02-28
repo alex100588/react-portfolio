@@ -1,5 +1,5 @@
 .hero img{
-    width: 12rem;
+    width: 16rem;
     border-radius: 50%;
 }
 
@@ -52,14 +52,13 @@
 .hero-resume{
     padding: 0.8rem 2rem;
     border-radius: 3rem;
-    border: 2px solid white;
+    outline: 2px solid white;
     cursor: pointer;
 }
 
 .hero-connect:hover{
-    padding: 0.7rem 1.88rem;
-    border: 2px solid white;
+    outline: 2px solid white;
 }
 .hero-resume:hover{
-    border-color: #7f3793;
+    outline:2px solid #7f3793;
 }

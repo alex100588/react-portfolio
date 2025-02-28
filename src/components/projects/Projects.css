@@ -18,21 +18,25 @@
 }
 
 .my-work-container{
+    justify-content: space-between;
+    
+    width: 75vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
+
 .my-work-container img{
-    border:1px solid white;
     padding: .4rem;
-    width: 17rem;
-    height: 8rem;
+    width: 27rem;
+    height: 13rem;
     transition: 0.3s;
     cursor: pointer;
-    border-radius: 0.2rem;
+    border-radius: 1rem;
 }
 .my-work-container img:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: 0.3s;
+    background: rgb(59, 8, 59);
 }

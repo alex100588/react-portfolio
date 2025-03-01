@@ -8,6 +8,9 @@
 .navbar ul li{
     cursor: pointer;
 }
+.navbar ul li a:hover{
+    color: #830ea3;
+}
 
 .nav-menu{
     display: flex;

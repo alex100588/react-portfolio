@@ -1,24 +1,26 @@
-.my-education{
-    padding-bottom: 2rem;
-}
-
-.my-education h1{
+.h1-design{
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.education-title{
+.my-education{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
+.education-title{
+    margin-top: 1rem;
+}
+
 .education-title img{
-    width: 65%;
+    width: 72%;
 }
 
 .certifications{
     text-align: center;
-    display: flex;
     margin-top: 2rem;
 }
 
@@ -27,6 +29,13 @@
 }
 
 .certifications img{
-    width: 80%;
-    height: 100%;
+    width: 72%;
+}
+
+.last-certificate {
+    text-align: center;
+}
+.last-certificate img{
+    width: 40%;
+    margin: 0 auto;
 }

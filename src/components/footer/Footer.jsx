@@ -1,6 +1,5 @@
 import "./Footer.css";
 import footer_logo from "../../assets/footer_logo.svg";
-import user_icon from "../../assets/user_icon.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
@@ -11,25 +10,25 @@ const Footer = () => {
           <AnchorLink className="anchor-link" href="#home">
             <img src={footer_logo} alt="" />
           </AnchorLink>{" "}
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, eius!
-          </p>
-        </div>
-        <div className="footer-top-right">
-          <div className="footer-email-input">
-            <img src={user_icon} alt="" />
-            <input type="email" placeholder="Enter your email" />
-          </div>
-          <div className="footer-subscribe">Subscribe</div>
+          <p>Made with passion for design and programming.</p>
         </div>
       </div>
       <hr />
       <div className="footer-bottom">
         <p className="footer-bottom-left">2025 Ionasc Alex</p>
         <div className="footer-bottom-right">
-          <p>Terms of services</p>
-          <p>Connect</p>
-          <p>Connect 2</p>
+          <a
+            href="https://www.linkedin.com/in/ionasc-alexandru-328a2532b/"
+            target="_blank"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/alex100588" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.facebook.com/ionasc.gabriel" target="_blank">
+          <i class="bi bi-facebook"></i>
+          </a>
         </div>
       </div>
     </div>

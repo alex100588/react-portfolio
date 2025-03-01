@@ -1,13 +1,13 @@
 import "./Home.css";
-import me from "../../assets/me.jpg";
+import eu from "../../assets/eu2.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Home = () => {
   return (
     <div id="home" className="hero">
-      <img src={me} alt="me" />
-      <h1>
-        <span>I am Ionasc Alex</span>, frontend developer
+      <img src={eu} alt="me" />
+      <h1>Hello <br />
+        <span>My name is Alex, I am frontend developer</span>
       </h1>
       <p>
         I am a Frontend Developer with a solid foundation in HTML, CSS, and

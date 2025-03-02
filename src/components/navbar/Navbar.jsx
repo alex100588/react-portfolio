@@ -25,6 +25,11 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li>
+          <AnchorLink className="anchor-link" href="#portfolio">
+            Portfolio
+          </AnchorLink>
+        </li>
+        <li>
           <AnchorLink className="anchor-link" href="#projects">
             Projects
           </AnchorLink>

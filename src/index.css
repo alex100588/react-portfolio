@@ -5,7 +5,7 @@
 
 body{
     height: 100vh;
-    background-color: #161513;
+    background: linear-gradient( rgb(14, 0, 0) 0.36%, #01011b, rgb(14, 0, 0));
     color: white;
     font-family: "Liter", serif;
 }

@@ -5,7 +5,7 @@ import game2 from "../../assets/game2.png";
 const Services = () => {
   return (
     <>
-      <h1 className="h1-design">Education</h1>
+      <h1 className="h1-design">My education</h1>
       <div id="education" className="my-education">
         <div className="education-title">
           <h1>My Education</h1>
@@ -22,10 +22,10 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="last-certificate">
+      {/* <div className="last-certificate">
         <h3>Certification 3</h3>
         <img src={game2} alt="" />
-      </div>
+      </div> */}
     </>
   );
 };

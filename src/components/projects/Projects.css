@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin: 3rem 10rem;
     padding-bottom: 2rem;
 }
 
@@ -12,18 +11,16 @@
     position: relative;
 }
 
-.my-work-title h1{
-    padding: 0 1rem;
-    font-size: 2rem;
-}
 
 .my-work-container{
     justify-content: space-between;
-    
+    font-size: 1.4rem;
+    font-family: cursive;
+    line-height: 2.5rem;
     width: 75vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 
@@ -39,4 +36,9 @@
     transform: scale(1.01);
     transition: 0.3s;
     background: rgb(59, 8, 59);
+}
+
+.my-work-container p{
+    margin-bottom: 0.7rem;
+    color: rgb(193, 189, 197);
 }

@@ -39,9 +39,7 @@ const Contact = () => {
         <div className="contact-left">
           <h3>Let's talk !</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            voluptas nemo voluptates omnis nobis adipisci fugiat numquam
-            corporis quia. Quo.
+            Please send me an email and I will contact you how soon as possible or call me, I am available for working as frontend developer, web designer, backend developer or full stack developer.
           </p>
           <div className="contact-details">
             <div className="contact-detail">

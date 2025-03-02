@@ -7,11 +7,11 @@ const Home = () => {
     <div id="home" className="hero">
       <img src={eu} alt="me" />
       <h1>Hello <br />
-        <span>My name is Alex, I am frontend developer</span>
+        <span>My name is Alex, frontend web developer</span>
       </h1>
       <p>
         I am a Frontend Developer with a solid foundation in HTML, CSS, and
-        JavaScript, paired with expertise in React for building dynamic user
+        JavaScript, paired with expertise in React and Typescript for building dynamic user
         interfaces.
       </p>
       <div className="hero-action">

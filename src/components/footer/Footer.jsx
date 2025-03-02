@@ -12,10 +12,15 @@ const Footer = () => {
           </AnchorLink>{" "}
           <p>Made with passion for design and programming.</p>
         </div>
+        <div className="footer-top-right">
+          <AnchorLink className="anchor-link" href="#home">
+            <i className="bi bi-arrow-up-circle-fill"></i>
+          </AnchorLink>
+        </div>
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">2025 Ionasc Alex</p>
+        <p className="footer-bottom-left">&#169; 2025 Ionasc Alex</p>
         <div className="footer-bottom-right">
           <a
             href="https://www.linkedin.com/in/ionasc-alexandru-328a2532b/"
@@ -27,7 +32,7 @@ const Footer = () => {
             <i class="bi bi-github"></i>
           </a>
           <a href="https://www.facebook.com/ionasc.gabriel" target="_blank">
-          <i class="bi bi-facebook"></i>
+            <i class="bi bi-facebook"></i>
           </a>
         </div>
       </div>

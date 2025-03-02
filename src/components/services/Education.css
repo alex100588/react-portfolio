@@ -45,3 +45,51 @@
     width: 40%;
     margin: 0 auto;
 }
+
+
+@media screen and (max-width: 900px) {
+    .h1-design{
+        padding-top: 3rem;
+    }
+
+    .my-education{
+        display: block;
+    }
+
+    .education-title {
+        margin-top: 0.9rem;
+    }
+    
+    .education-title h1{
+        font-size: 1.3rem;
+        margin-bottom: .9rem;
+    }
+    .education-title img{
+        width: 90%;
+    }
+
+    .certifications{
+        margin-top: 2rem;
+    }
+
+    .certifications h3{
+        margin-bottom: 0;
+    }
+
+    .certifications img{
+        height: 25rem;
+        width: 90%;
+    }
+
+    .certificate{
+        margin-bottom: .8rem;
+    }
+   
+  }
+@media screen and (max-width: 600px) {
+    .certifications img{
+        height: 11rem;
+        width: 90%;
+    }
+
+  }

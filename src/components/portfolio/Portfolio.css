@@ -18,3 +18,21 @@
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 900px) {
+   .portfolio{
+    padding: 1rem;
+   }
+
+   .video iframe{
+    width: 95%;
+    height: 25rem;
+   }
+   
+  }
+@media screen and (max-width: 600px) {
+    .video iframe{
+        height: 12rem;
+       }
+   
+  }
+

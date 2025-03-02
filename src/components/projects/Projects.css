@@ -1,44 +1,73 @@
-.my-work{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    padding-bottom: 2rem;
+.my-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 2rem;
 }
 
-.my-work-title{
-    position: relative;
+.my-work-title {
+  position: relative;
 }
 
-
-.my-work-container{
-    justify-content: space-between;
-    font-size: 1.4rem;
-    font-family: cursive;
-    line-height: 2.5rem;
-    width: 75vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+.my-work-container {
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-family: cursive;
+  line-height: 2.5rem;
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
-
-.my-work-container img{
-    padding: .4rem;
-    width: 36rem;
-    height: 18rem;
-    transition: 0.3s;
-    cursor: pointer;
-    border-radius: 1rem;
+.my-work-container img {
+  padding: 0.4rem;
+  width: 36rem;
+  height: 18rem;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 1rem;
 }
-.my-work-container img:hover{
-    transform: scale(1.01);
-    transition: 0.3s;
-    background: rgb(59, 8, 59);
+.my-work-container img:hover {
+  transform: scale(1.01);
+  transition: 0.3s;
+  background: rgb(59, 8, 59);
 }
 
-.my-work-container p{
-    margin-bottom: 0.7rem;
-    color: rgb(193, 189, 197);
+.my-work-container p {
+  margin-bottom: 0.7rem;
+  color: rgb(193, 189, 197);
+}
+
+@media screen and (max-width: 900px) {
+  .my-work-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .my-work-container img {
+    width: 44.3rem;
+    height: 20rem;
+  }
+
+  .text{
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .my-work{
+    padding-bottom: 0;
+  }
+    .my-work-container img {
+        width: 21.3rem;
+        height: 12rem;
+    }
+
+    .text{
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
 }

@@ -56,15 +56,15 @@ const About = () => {
         </div>
       </div>
       <div className="icons">
-        <i class="bi bi-filetype-html"></i>
-        <i class="bi bi-filetype-css"></i>
-        <i class="bi bi-filetype-js"></i>
+        <i className="bi bi-filetype-html"></i>
+        <i className="bi bi-filetype-css"></i>
+        <i className="bi bi-filetype-js"></i>
       </div>
       <div className="icons2">
-        <i class="bi bi-filetype-jsx"></i>
-        <i class="bi bi-filetype-tsx"></i>
-        <i class="bi bi-bootstrap"></i>
-        <i class="bi bi-filetype-sql"></i>
+        <i className="bi bi-filetype-jsx"></i>
+        <i className="bi bi-filetype-tsx"></i>
+        <i className="bi bi-bootstrap"></i>
+        <i className="bi bi-filetype-sql"></i>
       </div>
     </div>
   );

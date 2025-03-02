@@ -12,7 +12,7 @@ const Services = () => {
           <img src={licenta} alt="licence" />
         </div>
         <div className="certifications">
-          <div>
+          <div className="certificate">
             <h3>Certification 1</h3>
             <img src={game2} alt="" />
           </div>

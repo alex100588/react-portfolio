@@ -26,13 +26,13 @@ const Footer = () => {
             href="https://www.linkedin.com/in/ionasc-alexandru-328a2532b/"
             target="_blank"
           >
-            <i class="bi bi-linkedin"></i>
+            <i className="bi bi-linkedin"></i>
           </a>
           <a href="https://github.com/alex100588" target="_blank">
-            <i class="bi bi-github"></i>
+            <i className="bi bi-github"></i>
           </a>
           <a href="https://www.facebook.com/ionasc.gabriel" target="_blank">
-            <i class="bi bi-facebook"></i>
+            <i className="bi bi-facebook"></i>
           </a>
         </div>
       </div>

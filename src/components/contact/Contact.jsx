@@ -5,7 +5,7 @@ import call_icon from "../../assets/call_icon.svg";
 import { useState } from "react";
 
 const Contact = () => {
-  const [input, setInput] = useState(null);
+  const [input, setInput] = useState(undefined);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -59,13 +59,13 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/ionasc-alexandru-328a2532b/"
                 target="_blank"
               >
-                <i class="bi bi-linkedin"></i>
+                <i className="bi bi-linkedin"></i>
               </a>
               <a href="https://github.com/alex100588" target="_blank">
-                <i class="bi bi-github"></i>
+                <i className="bi bi-github"></i>
               </a>
               <a href="https://www.facebook.com/ionasc.gabriel" target="_blank">
-                <i class="bi bi-facebook"></i>
+                <i className="bi bi-facebook"></i>
               </a>
             </div>
           </div>
@@ -77,6 +77,7 @@ const Contact = () => {
             type="text"
             placeholder="Enter your name"
             name="name"
+            onChange={()=>setInput(value)}
           />
           <label htmlFor="">Your Email</label>
           <input
@@ -84,13 +85,15 @@ const Contact = () => {
             type="email"
             placeholder="Enter your email"
             name="email"
+            onChange={()=>setInput(value)}
           />
           <label htmlFor="">Write your message here:</label>
           <textarea
-            value={input}
+            value={input }
             name="message"
             rows="8"
             placeholder="Enter your message"
+            onChange={()=>setInput(value)}
           ></textarea>
           <button type="submit" className="contact-submit">
             Submit now

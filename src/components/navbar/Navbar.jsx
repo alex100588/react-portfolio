@@ -3,6 +3,15 @@ import logo from "../../assets/logo.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
+
+  const showMenu = () =>{
+    const navlist = document.querySelectorAll('.nav-menu li a')
+    // const connectButton = document.querySelectorAll('.hero-connect')
+    navlist.forEach(i => i.classList.toggle('show-menu'))
+    // connectButton.forEach(i => i.classList.toggle('show-menu'))
+  }
+  
+
   return (
     <div className="navbar">
       <AnchorLink className="anchor-link" href="#home">
@@ -20,7 +29,7 @@ const Navbar = () => {
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink className="anchor-link" href="#education">
+          <AnchorLink className="anchor-link " href="#education">
             Education
           </AnchorLink>
         </li>
@@ -41,8 +50,11 @@ const Navbar = () => {
         </li>
       </ul>
       <AnchorLink className="anchor-link" href="#contact">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect1">Connect with me</div>
       </AnchorLink>
+      <div className="burger-menu">
+        <i className="bi bi-list" onClick={()=>showMenu()}></i>
+      </div>
     </div>
   );
 };

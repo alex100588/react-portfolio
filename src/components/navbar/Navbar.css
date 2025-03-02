@@ -35,6 +35,65 @@
     transition: 0.5s;
 }
 
+.hero-connect1{
+    padding: 0.8rem 2rem;
+    border-radius: 3rem;
+    background: linear-gradient(267deg, #3a25da 0.36%, #830ea3 102%);
+    cursor: pointer;
+}
+.hero-connect1:hover{
+  transform: scale(1.06);
+}
+
 .nav-conect:hover{
     transform: scale(1.02);
 }
+
+.burger-menu{
+    display: none;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .burger-menu{
+        display: block;
+    }
+
+    .nav-menu{
+        flex-direction: column;
+        gap: .3rem;
+    }
+
+    .nav-menu{
+        position: absolute;
+        flex-direction: row;
+        gap: 2rem;
+        top: 6rem;
+        left: 6.6rem;
+    }
+
+    .nav-menu li a{
+        display: none;
+    }
+    .hero-connect1{
+        display: none;
+    }
+
+    .show-menu{
+        display: block!important;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nav-menu{
+        flex-direction: column;
+        gap: 0;
+        top: 5rem;
+        left: 4rem;
+    }
+
+    .nav-menu{
+        font-size: 0.9rem;
+    }
+  }

@@ -66,3 +66,24 @@
 .hero-resume:hover{
     outline:2px solid #7f3793;
 }
+
+@media screen and (max-width: 600px) {
+    .hero{
+        font-size: .55rem;
+    }
+   .hero img{
+    margin-top: 2rem;
+    width: 17rem;
+   }
+
+   .hero h1{
+    width: 90%;
+   }
+   .hero p{
+    width: 100%;
+   }
+
+   .hero-action{
+    font-size: 0.6rem;
+   }
+  }

@@ -1,5 +1,6 @@
 import "./Projects.css";
 import mywork_data from "../../assets/mywork_data.js";
+import { Fragment } from "react";
 
 const Projects = () => {
   return (
@@ -10,17 +11,17 @@ const Projects = () => {
       <div className="my-work-container">
         {mywork_data.map((work, index) => {
           return (
-            <>
+            <Fragment key={index}>
               <a href={work.adress} target="_blank">
                 <img key={index} src={work.w_img} alt="img" />
               </a>
-              <div>
+              <div className="text">
                 <p>{work.w_name}</p>
                 <p>{work.description}</p>
                 <a href={work.adress} target="_blank" style={{color:"white"}}>Click to see the project</a><br />
                 <a href={work.git} target="_blank" style={{color:"white"}}>Click to see code on Github</a>
               </div>
-            </>
+            </Fragment>
           );
         })}
       </div>

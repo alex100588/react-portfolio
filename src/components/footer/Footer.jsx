@@ -10,7 +10,7 @@ const Footer = () => {
           <AnchorLink className="anchor-link" href="#home">
             <img src={footer_logo} alt="" />
           </AnchorLink>{" "}
-          <p>Made with passion for design and programming.</p>
+          <p>Made with passion for design and programming. Design made only with vanila CSS.</p>
         </div>
         <div className="footer-top-right">
           <AnchorLink className="anchor-link" href="#home">

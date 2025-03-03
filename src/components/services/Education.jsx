@@ -1,6 +1,6 @@
 import "./Education.css";
 import licenta from "../../assets/licenta.jpeg";
-import game2 from "../../assets/game2.png";
+import game2 from "../../assets/teachBit.png";
 
 const Services = () => {
   return (

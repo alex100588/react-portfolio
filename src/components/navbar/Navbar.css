@@ -89,11 +89,13 @@
     .nav-menu{
         flex-direction: column;
         gap: 0;
-        top: 5rem;
-        left: 4rem;
+        top: 4rem;
+        right: -9rem;
     }
 
     .nav-menu{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
+
+
   }

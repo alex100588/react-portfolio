@@ -1,89 +1,121 @@
-.hero{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding-top: 3.5rem;
-    font-family: cursive;
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 3.5rem;
+  font-family: cursive;
 }
 
-
-.hero img{
-    width: 20rem;
-    border-radius: 50%;
+.hero img {
+  width: 20rem;
+  border-radius: 50%;
 }
 
-
-.hero img{
-    margin-top: 1rem;
+.hero img {
+  margin-top: 1rem;
 }
 
-.hero h1{
-    text-align: center;
-    width: 70%;
+.hero h1 {
+  text-align: center;
+  width: 70%;
 }
 
-.hero h1 span{
-    background: linear-gradient(267deg, #3a25da 0.36%, #830ea3 102%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.hero h1 span {
+  background: linear-gradient(267deg, #3a25da 0.36%, #830ea3 102%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.hero p{
-    width: 50%;
-    text-align: center;
-    font-size: 1.1rem;
-    line-height: 2rem;
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
-.hero-action{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
 }
 
-.hero-connect{
-    padding: 0.8rem 2rem;
-    border-radius: 3rem;
-    background: linear-gradient(267deg, #3a25da 0.36%, #830ea3 102%);
-    cursor: pointer;
+.hero-connect {
+  padding: 0.8rem 2rem;
+  border-radius: 3rem;
+  background: linear-gradient(267deg, #3a25da 0.36%, #830ea3 102%);
+  cursor: pointer;
 }
 
-.hero-resume{
-    padding: 0.8rem 2rem;
-    border-radius: 3rem;
-    outline: 2px solid white;
-    cursor: pointer;
+.hero-resume {
+  padding: 0.8rem 2rem;
+  border-radius: 3rem;
+  outline: 2px solid white;
+  cursor: pointer;
 }
 
-.hero-connect:hover{
-    outline: 2px solid white;
+.hero-connect:hover {
+  outline: 2px solid white;
 }
-.hero-resume:hover{
-    outline:2px solid #7f3793;
+.hero-resume:hover {
+  outline: 2px solid #7f3793;
 }
 
+@media screen and (max-width: 900px) {
+  .hero-connect {
+    font-size: 1.7rem;
+  }
+  .hero p {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .hero-resume {
+    font-size: 1.7rem;
+  }
+
+  .about-skill p {
+    font-size: 1.3rem;
+  }
+}
 @media screen and (max-width: 600px) {
-    .hero{
-        font-size: .55rem;
-    }
-   .hero img{
+  .hero {
+    font-size: 0.55rem;
+  }
+  .hero img {
     margin-top: 2rem;
     width: 17rem;
-   }
-
-   .hero h1{
-    width: 90%;
-   }
-   .hero p{
-    width: 100%;
-   }
-
-   .hero-action{
-    font-size: 0.6rem;
-   }
   }
+
+  .hero-connect {
+    font-size: 0.9rem;
+  }
+
+  .hero-resume {
+    font-size: 0.9rem;
+  }
+
+  .hero h1 {
+    width: 90%;
+  }
+  .hero p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .hero-action {
+    font-size: 0.6rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+  }
+
+  .about-skill p {
+    font-size: 1.2rem;
+  }
+}

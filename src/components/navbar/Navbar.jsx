@@ -18,6 +18,9 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </AnchorLink>{" "}
       <ul className="nav-menu">
+      <div className="burger-menu">
+        <i className="bi bi-list" onClick={()=>showMenu()}></i>
+      </div>
         <li>
           <AnchorLink className="anchor-link" href="#home">
             Home
@@ -52,9 +55,7 @@ const Navbar = () => {
       <AnchorLink className="anchor-link" href="#contact">
         <div className="hero-connect1">Connect with me</div>
       </AnchorLink>
-      <div className="burger-menu">
-        <i className="bi bi-list" onClick={()=>showMenu()}></i>
-      </div>
+      
     </div>
   );
 };

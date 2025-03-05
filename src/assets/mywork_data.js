@@ -51,9 +51,9 @@ const mywork_data = [
         w_no:6,
         w_name: "Game platform app React.ts",
         w_img: game2,
-        adress:"https://weatherappalexionasc.netlify.app/",
-        description: "I build this project with React, Typescript, built in methods in Javascript and for design I used Chakra.UI",
-        git: ''
+        adress:"https://game-platform-react-ts.vercel.app/",
+        description: "I build this project with React, Typescript, built in methods in Javascript and for design I explored the Chakra.UI library",
+        git: 'https://github.com/alex100588/game-platform-react-ts'
     },
 ]
 

@@ -1,6 +1,7 @@
 import "./Education.css";
 import licenta from "../../assets/licenta.jpeg";
 import webDevelopment from "../../assets/teachBit.png";
+import typescriptCertificate from "../../assets/typescript.png";
 
 const Services = () => {
   return (
@@ -25,12 +26,12 @@ const Services = () => {
               I learned how to put in practice and create  <br /> applications with <br /> Html, Css, Javascript, Bootstrap and React
             </p>
             <br />
-            <img src={webDevelopment} alt="" />
+            <img src={webDevelopment} alt="web development" />
           </div>
           <div>
             <h3>React with Typescript</h3>
-            <p></p>
-            <img src={webDevelopment} alt="" />
+            <p>In the course I learned React with Typescript <br /> and I explored the Chakra Ui design library</p>
+            <img src={typescriptCertificate} alt="typescript" />
           </div>
         </div>
       </div>

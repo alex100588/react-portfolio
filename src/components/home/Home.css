@@ -10,11 +10,9 @@
 .hero img {
   width: 20rem;
   border-radius: 50%;
-}
-
-.hero img {
   margin-top: 1rem;
 }
+
 
 .hero h1 {
   text-align: center;
@@ -87,8 +85,8 @@
     font-size: 0.55rem;
   }
   .hero img {
-    margin-top: 2rem;
     width: 17rem;
+    margin-top: 0;
   }
 
   .hero-connect {

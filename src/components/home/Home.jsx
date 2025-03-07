@@ -2,6 +2,11 @@ import "./Home.css";
 import eu from "../../assets/eu2.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+const saveFile = () => { saveAs("",
+  "cv.pdf"
+);
+}
+
 const Home = () => {
   return (
     <div id="home" className="hero">
@@ -19,7 +24,7 @@ const Home = () => {
           <div className="hero-connect">Connect with me</div>
         </AnchorLink>
 
-        <div className="hero-resume">My resume</div>
+        <button className="hero-resume" onClick={saveFile}>My resume</button>
       </div>
     </div>
   );

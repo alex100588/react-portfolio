@@ -20,7 +20,7 @@ const Projects = () => {
               <div className="text">
                 <p>{work.description}</p>
                 <a href={work.adress} target="_blank" style={{color:"white"}}>Click to see the project</a><br />
-                <a href={work.git} target="_blank" style={{color:"white"}}>Click to see code on Github</a>
+                <a href={work.git} target="_blank" style={{color:"white"}}>Click to see the Github repository</a>
               </div>
               </div>
             </Fragment>

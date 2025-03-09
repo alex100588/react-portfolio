@@ -13,7 +13,7 @@ const Portfolio = () => {
          <Iframe
             width="1000"
             height="450"
-            src="https://www.loom.com/embed/437f4d1390e64a6cb9f540810a946b42?sid=ddaf67e1-9ccb-48bf-86f3-4468add528e5"
+            src="https://www.loom.com/embed/60ebf3cf08854692baed424c74e651af?sid=315a1d4f-cd34-4afd-9c21-5445a11825c8"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

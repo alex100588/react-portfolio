@@ -9,10 +9,11 @@ const Portfolio = () => {
       <div className="container">
         <div className="video">
           <h3>Presentation </h3>
+          
          <Iframe
             width="1000"
             height="450"
-            src="https://www.loom.com/embed/67af80e1e48d41a89c97b295a9e7db57?sid=5516f5c1-948f-4cda-9bcc-ed79520abb76"
+            src="https://www.loom.com/embed/437f4d1390e64a6cb9f540810a946b42?sid=ddaf67e1-9ccb-48bf-86f3-4468add528e5"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -38,7 +39,7 @@ const Portfolio = () => {
           <Iframe
             width="1000"
             height="450"
-            src="https://www.youtube.com/embed/wxjV7pnhpLs?si=f3Jel8WC5edUs4m6"
+            src="https://www.loom.com/embed/4064361bea1144808b1ab736fa14e3db?sid=f08b0cce-48a2-492d-82e9-65bdf6e179e06"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

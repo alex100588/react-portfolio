@@ -1,11 +1,9 @@
 import "./Home.css";
 import eu from "../../assets/eu2.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import resume from '../../assets/cv.pdf'
 
-const saveFile = () => { saveAs("",
-  "cv.pdf"
-);
-}
+
 
 const Home = () => {
   return (
@@ -24,7 +22,7 @@ const Home = () => {
           <div className="hero-connect">Connect with me</div>
         </AnchorLink>
 
-        <button className="hero-resume" onClick={saveFile}>My resume</button>
+        <a href={resume} download='resume' className="hero-resume" >My resume</a>
       </div>
     </div>
   );

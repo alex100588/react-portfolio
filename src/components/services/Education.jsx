@@ -30,7 +30,7 @@ const Services = () => {
           </div>
           <div>
             <h3>React with Typescript</h3>
-            <p>In the course I learned React with Typescript <br /> and I explored the Chakra Ui design library</p>
+            <p >In the course I learned React with Typescript <br /> and I explored the Chakra Ui design library</p>
             <img src={typescriptCertificate} alt="typescript" />
           </div>
         </div>

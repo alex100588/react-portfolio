@@ -44,6 +44,10 @@
     width: 72%;
 }
 
+.cerificate-image{
+    margin-top: 1.2rem;
+}
+
 .last-certificate {
     text-align: center;
 }
@@ -102,6 +106,10 @@
     .certifications h3{
         font-size: 1.4rem;
         margin-top: 3rem;
+    }
+
+    .certificate p{
+        font-size: 1rem;
     }
     .certifications img{
         height: 16rem;

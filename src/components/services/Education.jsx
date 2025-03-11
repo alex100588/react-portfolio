@@ -11,7 +11,7 @@ const Services = () => {
         <div className="education-title">
           <h1>Bachelor's degree</h1>
           <p>
-            On my journey I learned the basics of programming languages, <br />{" "}
+            On my journey I learned the basics of <br /> programming languages, <br />{" "}
             databases an networking fundamentals
           </p>
           <br />
@@ -30,8 +30,8 @@ const Services = () => {
           </div>
           <div>
             <h3>React with Typescript</h3>
-            <p >In the course I learned React with Typescript <br /> and I explored the Chakra Ui design library</p>
-            <img src={typescriptCertificate} alt="typescript" />
+            <p >In the course I learned React <br /> with Typescript and I explored <br /> the Chakra Ui design library</p>
+            <img className="cerificate-image" src={typescriptCertificate} alt="typescript" />
           </div>
         </div>
       </div>

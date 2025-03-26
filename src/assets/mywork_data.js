@@ -3,8 +3,9 @@ import weather from '../assets/weather.png';
 import photoappjs from '../assets/photoappjs.png';
 import photoappreact from '../assets/photoappreact.png'; 
 import ecommerce from '../assets/ecommerce.png'; 
-import game1 from '../assets/game1.png'; 
 import game2 from '../assets/game2.png'; 
+import crud from '../assets/crud.png'; 
+
 
 const mywork_data = [
     {
@@ -54,6 +55,14 @@ const mywork_data = [
         adress:"https://game-platform-react-ts.vercel.app/",
         description: "I build this project with React, Typescript, built in methods in Javascript and for design I explored the Chakra.UI library",
         git: 'https://github.com/alex100588/game-platform-react-ts'
+    },
+    {
+        w_no:6,
+        w_name: "CRUD Full stack app with MERN",
+        w_img: crud,
+        adress:"https://crud-full-stack-app-wqhu.vercel.app/",
+        description: "I build this project on frontend with React, Bootstrap and CSS and on the backend I used Node.js, Express and MongoDB ",
+        git: 'https://github.com/alex100588/CRUD-full-stack-app'
     },
 ]
 

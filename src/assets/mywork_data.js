@@ -61,7 +61,7 @@ const mywork_data = [
         w_name: "CRUD Full stack app with MERN",
         w_img: crud,
         adress:"https://crud-full-stack-app-wqhu.vercel.app/",
-        description: "I build this project on frontend with React, Bootstrap and CSS and on the backend I used Node.js, Express and MongoDB ",
+        description: "I build this project on the frontend with React, Bootstrap and CSS and on the backend I used Node.js, Express and MongoDB ",
         git: 'https://github.com/alex100588/CRUD-full-stack-app'
     },
 ]

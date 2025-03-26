@@ -13,7 +13,7 @@ const mywork_data = [
         w_name: "Shopping list",
         w_img: shopping,
         adress: "https://alex-shopping-list.netlify.app/",
-        description: "I build this project with Html, CSS, Javascript, Local Storage and for adding different items I used the DOM model.",
+        description: "I built this project with Html, CSS, Javascript, Local Storage and for adding different items I used the DOM model.",
         git:"https://github.com/alex100588/shopping-list-app"
     },
     {
@@ -21,7 +21,7 @@ const mywork_data = [
         w_name: "Weather App",
         w_img: weather,
         adress:"https://weatherappalexionasc.netlify.app/",
-        description: "I build this project withd Html, CSS, Javascript, Bootstrap, and for the different cities weather I used a connection to a weaher API",
+        description: "I built this project withd Html, CSS, Javascript, Bootstrap, and for the different cities weather I used a connection to a weaher API",
         git: "https://github.com/alex100588/Weather"
     },
     {
@@ -29,7 +29,7 @@ const mywork_data = [
         w_name: "Photo App",
         w_img: photoappjs,
         adress:"https://photoappjs.netlify.app/",
-        description: "I build this project with Html, CSS, Javascript, Local Storage, for the programming concept I used OOP, routing for different pages and for fetching the data I used async await",
+        description: "I built this project with Html, CSS, Javascript, Local Storage, for the programming concept I used OOP, routing for different pages and for fetching the data I used async await",
         git:'https://github.com/alex100588/photoapp'
     },
     {
@@ -37,7 +37,7 @@ const mywork_data = [
         w_name: "Photo app React.js",
         w_img: photoappreact,
         adress:"https://photo-app-react-js-iota.vercel.app/",
-        description: "I build this project with React.js, Bootstrap components and design, Axios and Router ",
+        description: "I built this project with React.js, Bootstrap components and design, Axios and Router ",
         git: 'https://github.com/alex100588/photo-app-react-js'
     },
     {
@@ -45,7 +45,7 @@ const mywork_data = [
         w_name: "E-commerce app React.js",
         w_img: ecommerce,
         adress:"https://ecommerce-react-alex.vercel.app/",
-        description: "I build this project with React.js, Bootstrap components and design, CSS, Javascript, Context, Axios, built in methods in Javascript",
+        description: "I built this project with React.js, Bootstrap components and design, CSS, Javascript, Context, Axios, built in methods in Javascript",
         git: 'https://github.com/alex100588/ecommerce-react/tree/master'
     },
     {
@@ -53,7 +53,7 @@ const mywork_data = [
         w_name: "Game platform app React.ts",
         w_img: game2,
         adress:"https://game-platform-react-ts.vercel.app/",
-        description: "I build this project with React, Typescript, built in methods in Javascript and for design I explored the Chakra.UI library",
+        description: "I built this project with React, Typescript, built in methods in Javascript and for design I explored the Chakra.UI library",
         git: 'https://github.com/alex100588/game-platform-react-ts'
     },
     {
@@ -61,7 +61,7 @@ const mywork_data = [
         w_name: "CRUD Full stack app with MERN",
         w_img: crud,
         adress:"https://crud-full-stack-app-wqhu.vercel.app/",
-        description: "I build this project on the frontend with React, Bootstrap and CSS and on the backend I used Node.js, Express and MongoDB ",
+        description: "I built this project on the frontend with React, Bootstrap and CSS and on the backend I used Node.js, Express and MongoDB ",
         git: 'https://github.com/alex100588/CRUD-full-stack-app'
     },
 ]

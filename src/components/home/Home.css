@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 2rem;
   padding-top: 3.5rem;
+  padding-bottom: 2rem;
   font-family: cursive;
 }
 
@@ -39,7 +40,6 @@
   gap: 1.5rem;
   font-size: 1rem;
   font-weight: 500;
-  margin-bottom: 3rem;
 }
 
 .hero-connect {
@@ -63,6 +63,10 @@
 }
 .hero-resume:hover {
   outline: 2px solid #7f3793;
+}
+
+.contact-icons a{
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 900px) {

@@ -47,6 +47,19 @@ const Portfolio = () => {
             allowfullscreen
           ></Iframe>
         </div>
+        <div className="video">
+          <h3>MERN CRUD full stack app</h3>
+          <Iframe
+            width="1000"
+            height="450"
+            src="https://www.loom.com/embed/5eafb461e0004c5c890b4a3773e013ad?sid=eb2d7ea3-78b4-4686-a627-078fda8371c4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            
+            allowfullscreen
+          ></Iframe>
+        </div>
       </div>
     </div>
   );

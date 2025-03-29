@@ -31,9 +31,9 @@ const Footer = () => {
           <a href="https://github.com/alex100588" target="_blank">
             <i className="bi bi-github"></i>
           </a>
-          <a href="https://www.facebook.com/ionasc.gabriel" target="_blank">
+          {/* <a href="https://www.facebook.com/ionasc.gabriel" target="_blank">
             <i className="bi bi-facebook"></i>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

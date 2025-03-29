@@ -26,6 +26,7 @@
 .test{
   margin-bottom: 3rem;
   border-bottom: 2px solid purple;
+  padding-bottom: 1rem;
 }
 
 .my-work-container img {
@@ -47,6 +48,11 @@
   color: rgb(193, 189, 197);
 }
 
+.project-icons a{
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
 @media screen and (max-width: 900px) {
   .my-work-container {
     display: block;
@@ -62,6 +68,9 @@
   .text{
     margin-bottom: 5rem;
   }
+  .test{
+    padding-bottom: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .my-work{
@@ -71,6 +80,9 @@
         width: 21.3rem;
         height: 12rem;
     }
+    .contact-icons a {
+      font-size: 3rem;
+  }
 
     
 

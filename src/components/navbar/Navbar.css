@@ -92,6 +92,11 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  .navbar{
+    margin: 1.2rem 1rem;
+  }
+  
   .nav-menu {
     flex-direction: column;
     gap: 0;
@@ -101,5 +106,10 @@
 
   .nav-menu {
     font-size: 1.2rem;
+  }
+
+  .burger-menu i {
+    position: absolute;
+    right: 1rem;
   }
 }

@@ -71,6 +71,11 @@
 }
 
 @media screen and (max-width: 900px) {
+  .hero .frame{
+    width: 90%;
+    height: 41vh;
+  }
+
   .hero-connect {
     font-size: 1.7rem;
   }
@@ -88,6 +93,11 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .hero .frame{
+    width: 90%;
+    height: 30vh;
+  }
+
   .hero {
     font-size: 0.55rem;
   }
@@ -97,18 +107,18 @@
   }
 
   .hero-connect {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .hero-resume {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .hero h1 {
     width: 90%;
   }
   .hero p {
-    width: 100%;
+    width: 97%;
     font-size: 0.9rem;
   }
 

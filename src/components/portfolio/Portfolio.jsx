@@ -7,7 +7,7 @@ const Portfolio = () => {
     <div id="portfolio" className="portfolio">
       <h1>Portfolio</h1>
       <div className="container">
-        <div className="video">
+        {/* <div className="video">
           <h3>Presentation </h3>
           
          <Iframe
@@ -20,7 +20,7 @@ const Portfolio = () => {
             
             allowfullscreen
           ></Iframe>
-        </div>
+        </div> */}
         <div className="video">
           <h3>React Photo App </h3>
           <Iframe

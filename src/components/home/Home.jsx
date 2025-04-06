@@ -4,6 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import resume from "../../assets/cv.pdf";
 import Iframe from "react-iframe";
 
+
 const Home = () => {
   return (
     <div id="home" className="hero">
@@ -12,7 +13,7 @@ const Home = () => {
         className="frame"
         width="1000"
         height="450"
-        src="https://www.loom.com/embed/126df9a828404e198e45879048a0d028?sid=683ccdaa-c0b2-441a-8d41-dea4dccd74cd"
+        src="https://www.loom.com/embed/13c8d40c3fd34649a1273824a31d1642?sid=9aaa9043-efdf-43b1-a94d-8212094a7a31"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
